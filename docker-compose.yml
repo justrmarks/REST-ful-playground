@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    flask:
+        container_name: flask
+        build: ./Flask-Python
+    db:
+        image: mongo:3.6.4
